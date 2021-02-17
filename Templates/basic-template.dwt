@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../assets/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/bvf1cma.css">
+<link rel="stylesheet" href="https://use.typekit.net/bvf1cma.css">
+<link rel="stylesheet" href="https://use.typekit.net/bvf1cma.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+	
+
+<body>
+	<div id="container">
+  <header>Content for New header Tag Goes Here</header>
+  <nav>
+	<ul>
+	  <li><a href="../pages/about.html">About</a></li>
+	  <li><a href="../pages/blog.html">Blog</a></li>
+	  <li><a href="../pages/blog.html">Gallery</a></li>
+	  <li><a href="../pages/contact.html">Contact</a></li>
+	</ul>
+  </nav>
+  <!--Begin Floated Elements-->
+	<aside><h3>I'm a young Man, Teengager, Employee, a Student, who don't actually wear glasses.</h3>
+		<h3>Join me as I examine my life through all my various lenses.</h3>
+	<h3>By Jobari Jackson</h3>
+	</aside>
+    <!-- TemplateBeginEditable name="main-content" -->
+    <main>
+      <h1>Page Title</h1>
+    </main>
+    <!-- TemplateEndEditable -->
+<!--End FLoated Elements-->
+  <footer>Content for New footer Tag Goes Here</footer>
+</div>
+</body>
+</html>

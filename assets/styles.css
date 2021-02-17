@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+#container {
+	width: 1280px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+
+	
+}
+
+body {
+    color: #212121;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    background-image: url("../images/water.jpg");
+    background-size: cover;
+  }
+
+/*Float the Aside so it displays Next to Main.*/
+aside {
+    width: 150px;
+    height: 1600px;
+    float: left;
+    background-color:#7D0002;
+}
+
+
+header {
+    width: 1280px;
+    height: 250px;
+    background-image: url("../images/new_header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*FLoat the Main so it shows up next to the Aside. Reduce width by 150px so they both line header*/
+main {
+    width: 1110px;
+    height: 2900px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatleft{
+	float: left
+}
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 1110;
+    height: 50px;
+    clear: both;
+	background-color: #7D0002;
+}
+article {
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	
+}
+h1 {
+    color: #DF0000;
+    font-family: politica, sans-serif;
+	font-weight: 700px;
+	font-style: normal;
+	font-size: 24pt;
+}
+p{
+	font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+nav {
+    width: 1280px;
+    height: 25px;
+    position: fixed;
+    top: 0px;
+    background-color: #FFFFFF;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 60px;
+    margin-right: 60px;
+    margin-left: 0px;
+	font-family: neonoir, sans-serif;
+	font-size: 18pt
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+}
+
+nav a:link {
+    color: #DF0000;
+    text-decoration: none;
+	
+}
+nav a:visited {
+    text-decoration: none;
+    color: #5C157A;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #DF0000;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #626262;
+
+}
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    background-color: #7D0002;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-shadow: 0px 0px;
+}
+.submit_btn:hover{
+	 -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
+.column {
+    width: 250px;
+    height: 750px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+
+}
+
+.cclicense{
+	width: 500px;
+	height: 20px;
+	clear: both;
+	padding: 50px 0px 0px 0px;
+	
+}
+video {
+    width: 600px;
+    margin: auto;
+    height: 600px;
+}
+h3 {
+    color: #98DAF0;
+}
+
+
+/*Rules The tabble will follow the Tablet-sized divices*/
+@media (max-width: 1024px){
+
+
+#container {
+	width: 768px;
+}
+
+header{
+	width: 768;
+}
+
+nav{
+	width: 768;
+}
+
+main{
+	width: 596;
+	height: 2500;
+}
+
+footor{
+	width: 768;
+}
+}
+
+.column { 
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 25px;
+}
+	
+
+@media screen and (max-width:375px){
+
+	#container {
+	width: 300px;
+}
+
+header{
+	width: 300px;
+	height: 250px;
+	background-image: url("../images/new_header.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 50px 0px 0px 0px;
+	
+}
+
+nav{
+	width: 300;
+	height: 250px;
+	position: static;
+}
+
+main{
+	width: 280;
+}
+
+footor{
+	width: 300;
+}
+
+	
+#container nav li {
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	margin: 0px 0px 20px 0px;
+	width: 260px;
+	text-align: center;	
+	
+}
+	
+	#container nav ul {
+	width: 260px;
+}
+
+	nav a:link {
+	display: block;
+	width: 200px;
+	background-color: #65EBFB;
+	color: white;
+	}
+	
+	nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+}
